@@ -20,26 +20,35 @@
       
         <a href="#" class="harsh" height="2px" width="2px">The Hidden Street</a>
        
-        <div id="menu-bar" class="fas fa-bars"></div>
-    
+        <!-- <div id="menu-bar" class="fas fa-bars">
+        </div>
+     -->
+     <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="#Home">Home</a>
+        <a href="#About-Us">About Us</a>
+        <a href="#Chefs">Chefs</a>
+        <a href="#Contact Us">Contacts</a>
+      </div>
+    </div>
         <nav class="navbar">
             <a href="#Home"  >Home</a>
             <a href="#About-Us" >About Us</a>
             <a href="#Chefs" >Chefs</a>
-            <a href="#Contact Us" >Contact Us</a>
+            <a href="#Contact Us" > Contact Us</a>
         </nav>
     
     </header>
     <section class="Home" id="Home">
-      <img src="data:image/jpeg;base64,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">
         <div class="content">
             <h1 font-size="50px">The Hidden Street is serving its delicious dishes since 1896.....</h1>
-            <h3>Come for a Drink,Stay for a Meal</h3>
+            <h3 class="content1" >Come for a Drink,Stay for a Meal</h3>
         </div>
     </section>
     <section class="About-Us" id="About-Us">
 
-        <h1 class="heading">About Us</h1>
+        <h1 class="heading">ABOUT US</h1>
     <h3 class="heading1">Feel The Joy of MouthWatering Food</h3>
         <div class="box-container">
 <div class="box-container">
@@ -69,16 +78,18 @@
     </section>
     <section class="Chefs" id="Chefs">
 
-        <h1 class="heading">Chefs</h1>
+        <h1 class="heading">CHEFS</h1>
 
         <h2 class="try">Contact Info</h2>
 
         <div class="boxs-container">
             <div class="cards">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Meilleur_Ouvrier_de_France_-_Paul_Bocuse.jpg/255px-Meilleur_Ouvrier_de_France_-_Paul_Bocuse.jpg"  width="200" height="200" alt="Chef" style="width:80%">
+                
                 <div class="container">
                   <h2 height="20px" width="20px">Paul Bocuse</h2>
                 <p> Phone.No:0000000001</p>
+              
                 </div>
               </div>
               <!-- </div> -->
@@ -122,13 +133,74 @@
 </ul>
 <div class="tab-content">
 <div id="BreakFast" data-tab-content class="active" >
-  <h1>Loren ipsum</h1>
+<div class="week1">
+  <img src="IMAGES/chole-bhature-recipe.jpg"  class="weekspecial" width="150" height="150">
+  <h1 class="special1">Chole Bhature</h1>
+  <h2 class="special">$4</h2>
+  
+  <img src="IMAGES/download.jpeg" class="weekspecial" width="150" height="150">
+  <h1 class="special1">Pav Bhaji</h1>
+  <h2 class="special">$3</h2>
+  
+  <img src="IMAGES/PURI-BHAJI-RECIPE.jpg" class="weekspecial" width="150" height="150">
+  <h1 class="special1">Puri Sabji</h1>
+  <h2 class="special">$5</h2>
+  
+</div>
 </div>
 <div id="Lunch" data-tab-content >
-  <h1>KAJHSHH</h1>
+  <div class="week2">
+    <img src="IMAGES/istockphoto-464597982-612x612.jpg" c
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    lass="weekspecial" width="150" height="150">
+  <h1 class="special1">Veg Thali</h1>
+  <h2 class="special">10$</h2>
+  
+  <img src="IMAGES/India_non_veg_thali.jpg" class="weekspecial" width="150" height="150">
+  <h1 class="special1">Non-Veg Thali</h1>
+  <h2 class="special"> 15$</h2>
+  
+  <img src="IMAGES/khalibalit-hali-1536933037.jpg" class="weekspecial" width="150" height="150">
+  <h1 class="special1">The Hidden Street Special Thali</h1>
+  <h2 class="special"> 20$</h2>
+  
+  </div>
 </div>
 <div id="Dinner" data-tab-content>
-  <h1>aadkjdn</h1>
+  <div class="week3">
+    <img src="IMAGES/download (1).jpeg" class="weekspecial" width="150" height="150">
+  <h1 class="special1">Delux Pizza</h1>
+  <h2 class="special"> 8$</h2>
+  
+  <img src="IMAGES/download (2).jpeg" class="weekspecial" width="150" height="150">
+  <h1 class="special1">Shahi Paneer</h1>
+  <h2 class="special"> 6$</h2>
+  
+  <img src="IMAGES/download (3).jpeg" class="weekspecial" width="150" height="150">
+  <h1 class="special1">Italian Pasta</h1>
+  <h2 class="special"> 10$</h2>
+  
+  </div>
 </div>
 </div>
 
@@ -136,18 +208,29 @@
 </div>
   </section>
     <section class="footer" id="Contact Us">
-             
+           <div class="logo1"> 
         <a href="#" class="logo1"><img src="data:image/jpeg;base64,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" height="70px" width="70px"></a>
-        <a href="#" class="nigam">The Hidden Street</a>
+        </div>
+        <div class="nigam">
+          <a>The Hidden Street</a>
+        </div>
         <div class="socialmedia">
-            <a href="https://www.facebook.com/" class="btn" height="20px" width="20px" target="_blank">Facebook</a>
-            <a href="https://twitter.com/login" class="btn" height="20px" width="20px" target="_blank">Twitter</a>
-            <a href="https://www.instagram.com/" class="btn" height="20px" width="20px" target="_blank">Instagram</a>
-            <a href="https://www.linkedin.com/login" class="btn" height="20px" width="20px" target="_blank">Linkedin</a>
+            <a href="https://www.facebook.com/" class="btn" height="20px" width="20px" target="_blank">
+              <img src="IMAGES/facebook-logo-2867.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com/login" class="btn" height="20px" width="20px" target="_blank">
+              <img src="IMAGES/twitter-logo-2429.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com/" class="btn" height="20px" width="20px" target="_blank">
+              <img src="IMAGES/instagram-logo-8869.png" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/login" class="btn" height="20px" width="20px" target="_blank">
+              <img src="IMAGES/linkedin-square-blue-logo-15978.png" alt="LinkedIn">
+            </a>
         </div>
         <div class="random">
-            <a href="#" class="btn" height="20px" width="20px">Terms and Conditions</a>
-            <a href="#" class="btn" height="20px" width="20px">Privacy Policy</a>
+            <a href="#" class="btn" height="25px" width="25px">Terms and Conditions</a>
+            <a href="#" class="btn" height="25px" width="25px">Privacy Policy</a>
         </div>
         <h1 class="credit"> Copyright <br> The Hidden Street <br> All Rights Reserved...
         
